@@ -1,114 +1,114 @@
 #************************* Root level Makefile *************************
 
-make    =nmake
+make	=nmake
 
 all:
 	cd bios
-        $(make)
+	$(make)
 	cd ..
 	cd cmd
 	cd chkdsk
-        $(make)
+	$(make)
 	cd ..\command
-        $(make)
+	$(make)
 	cd ..\debug
-        $(make)
+	$(make)
 	cd ..\diskcopy
-        $(make)
+	$(make)
 	cd ..\edlin
-        $(make)
+	$(make)
 	cd ..\exe2bin
-        $(make)
+	$(make)
 	cd ..\fc
-        $(make)
+	$(make)
 	cd ..\find
-        $(make)
+	$(make)
 	cd ..\format
-        $(make)
+	$(make)
 	cd ..\more
-        $(make)
+	$(make)
 	cd ..\print
-        $(make)
+	$(make)
 	cd ..\recover
-        $(make)
+	$(make)
 	cd ..\sort
-        $(make)
+	$(make)
 	cd ..\sys
-        $(make)
+	$(make)
 	cd ..\..\cmdms
 	cd command
-        $(make)
+	$(make)
 	cd ..\debug
-        $(make)
+	$(make)
 	cd ..\format
-        $(make)
+	$(make)
 	cd ..\more
-        $(make)
+	$(make)
 	cd ..\print
-        $(make)
+	$(make)
 	cd ..\recover
-        $(make)
+	$(make)
 	cd ..\sort
-        $(make)
+	$(make)
 	cd ..\..
 	cd dos
-        $(make)
+	$(make)
 	cd ..\msdos
-        $(make)
+	$(make)
 	cd ..
 
 
 clean:
 	cd bios
-        $(make) clean
+	$(make) clean
 	cd ..
 	cd cmd
 	cd chkdsk
-        $(make) clean
+	$(make) clean
 	cd ..\command
-        $(make) clean
+	$(make) clean
 	cd ..\debug
-        $(make) clean
+	$(make) clean
 	cd ..\diskcopy
-        $(make) clean
+	$(make) clean
 	cd ..\edlin
-        $(make) clean
+	$(make) clean
 	cd ..\exe2bin
-        $(make) clean
+	$(make) clean
 	cd ..\fc
-        $(make) clean
+	$(make) clean
 	cd ..\find
-        $(make) clean
+	$(make) clean
 	cd ..\format
-        $(make) clean
+	$(make) clean
 	cd ..\more
-        $(make) clean
+	$(make) clean
 	cd ..\print
-        $(make) clean
+	$(make) clean
 	cd ..\recover
-        $(make) clean
+	$(make) clean
 	cd ..\sort
-        $(make) clean
+	$(make) clean
 	cd ..\sys
-        $(make) clean
+	$(make) clean
 	cd ..\..\cmdms
 	cd command
-        $(make) clean
+	$(make) clean
 	cd ..\debug
-        $(make) clean
+	$(make) clean
 	cd ..\format
-        $(make) clean
+	$(make) clean
 	cd ..\more
-        $(make) clean
+	$(make) clean
 	cd ..\print
-        $(make) clean
+	$(make) clean
 	cd ..\recover
-        $(make) clean
+	$(make) clean
 	cd ..\sort
-        $(make) clean
+	$(make) clean
 	cd ..\..
 	cd dos
-        $(make) clean
+	$(make) clean
 	cd ..\msdos
-        $(make) clean
+	$(make) clean
 	cd ..
