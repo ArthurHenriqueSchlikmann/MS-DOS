@@ -1,59 +1,56 @@
 #************************* Root level Makefile *************************
 
-make	=nmake
-
 all:
 	cd bios
 	$(make)
 	cd ..
-	cd cmd
-	cd chkdsk
+	cd cmd/chkdsk
 	$(make)
-	cd ..\command
+	cd ../command
 	$(make)
-	cd ..\debug
+	cd ../debug
 	$(make)
-	cd ..\diskcopy
+	cd ../diskcopy
 	$(make)
-	cd ..\edlin
+	cd ../edlin
 	$(make)
-	cd ..\exe2bin
+	cd ../exe2bin
 	$(make)
-	cd ..\fc
+	cd ../fc
 	$(make)
-	cd ..\find
+	cd ../find
 	$(make)
-	cd ..\format
+	cd ../format
 	$(make)
-	cd ..\more
+	cd ../more
 	$(make)
-	cd ..\print
+	cd ../print
 	$(make)
-	cd ..\recover
+	cd ../recover
 	$(make)
-	cd ..\sort
+	cd ../sort
 	$(make)
-	cd ..\sys
+	cd ../sys
 	$(make)
-	cd ..\..\cmdms
+	cd ../../cmdms
 	cd command
 	$(make)
-	cd ..\debug
+	cd ../debug
 	$(make)
-	cd ..\format
+	cd ../format
 	$(make)
-	cd ..\more
+	cd ../more
 	$(make)
-	cd ..\print
+	cd ../print
 	$(make)
-	cd ..\recover
+	cd ../recover
 	$(make)
-	cd ..\sort
+	cd ../sort
 	$(make)
-	cd ..\..
+	cd ../..
 	cd dos
 	$(make)
-	cd ..\msdos
+	cd ../msdos
 	$(make)
 	cd ..
 
@@ -62,53 +59,52 @@ clean:
 	cd bios
 	$(make) clean
 	cd ..
-	cd cmd
-	cd chkdsk
+	cd cmd/chkdsk
 	$(make) clean
-	cd ..\command
+	cd ../command
 	$(make) clean
-	cd ..\debug
+	cd ../debug
 	$(make) clean
-	cd ..\diskcopy
+	cd ../diskcopy
 	$(make) clean
-	cd ..\edlin
+	cd ../edlin
 	$(make) clean
-	cd ..\exe2bin
+	cd ../exe2bin
 	$(make) clean
-	cd ..\fc
+	cd ../fc
 	$(make) clean
-	cd ..\find
+	cd ../find
 	$(make) clean
-	cd ..\format
+	cd ../format
 	$(make) clean
-	cd ..\more
+	cd ../more
 	$(make) clean
-	cd ..\print
+	cd ../print
 	$(make) clean
-	cd ..\recover
+	cd ../recover
 	$(make) clean
-	cd ..\sort
+	cd ../sort
 	$(make) clean
-	cd ..\sys
+	cd ../sys
 	$(make) clean
-	cd ..\..\cmdms
+	cd ../../cmdms
 	cd command
 	$(make) clean
-	cd ..\debug
+	cd ../debug
 	$(make) clean
-	cd ..\format
+	cd ../format
 	$(make) clean
-	cd ..\more
+	cd ../more
 	$(make) clean
-	cd ..\print
+	cd ../print
 	$(make) clean
-	cd ..\recover
+	cd ../recover
 	$(make) clean
-	cd ..\sort
+	cd ../sort
 	$(make) clean
-	cd ..\..
+	cd ../..
 	cd dos
 	$(make) clean
-	cd ..\msdos
+	cd ../msdos
 	$(make) clean
 	cd ..
